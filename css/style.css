@@ -1,0 +1,164 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap);
+
+
+@font-face {
+	font-family: Aqum;
+	src: url("../fonts/Aqum.woff2") format("woff2"), url("../fonts/Aqum.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: RedOctober;
+	src: url("../fonts/RedOctober.woff2") format("woff2"), url("../fonts/RedOctober.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: RedOctober-Fat;
+	src: url("../fonts/RedOctober-Fat.woff2") format("woff2"), url("../fonts/RedOctober-Fat.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: Raleway, sans-serif;
+}
+
+p{
+	line-height: 1.8;
+}
+
+.header-menu__link{
+	color: #663399;
+	font-family: RedOctober;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.block__link{
+	color: blue;
+	font-family: Aqum;
+	font-size: 30px;
+}
+
+.block__title{
+	font-family: RedOctober-Fat;
+	font-weight: 900;
+	font-size: 50px;
+	color: crimson;
+	text-align: center;
+	text-shadow: 10px 1px 5px #000
+}
+
+.block__author{
+	text-decoration: underline;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.block-2__text a{
+	color: darkgreen;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.block-3__title{
+	font-size: 30px;
+	font-family: RedOctober;
+	color: darkorange;
+	text-align: center;
+	text-shadow: 1px 1px 5px orange;
+}
+
+.block-3__list li a{
+font-size: 18px;
+font-family: Aqum;
+color: darksalmon;
+text-decoration: underline;
+}
+
+.content h3{
+	font-size: 40px;
+	font-family: Aqum;
+	text-align: center;
+	text-shadow: 1px 1px 10px cadetblue;
+}
+
+.content p{
+	text-align: justify;
+}
+
+.content-1__date,.content-2__date,.content-3__date{
+	color: red;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.content-4__date,.content-5__date,.content-6__date{
+	color: deeppink;
+	font-family: Aqum;
+	font-size: 14px;
+}
+
+.content-7__date,.content-8__date,.content-9__date{
+	color: indigo;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.content-10__date,.content-11__date,.content-12__date{
+	color: palevioletred;
+	font-family: RedOctober;
+	font-size: 15px;
+}
+
+.content-13__date{
+	color: tomato;
+	font-weight: 800;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+.content-other__title{
+	color: teal;
+	font-family: Aqum;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 3px 3px #000;
+}
+
+.content-other__text{
+	text-align: center;
+	text-decoration: overline;
+	font-size: 18px;
+}
+
+.content-other p span{
+	color: #663399;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.footer-menu__item a{
+	color:deepskyblue;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+}
+
+.footer__info{
+	text-decoration: underline;
+	font-size: 12px;
+	letter-spacing: 3px;
+	text-align: right;
+}
